@@ -121,16 +121,47 @@
 }
 
 
-
-
-.logout{
-  display: inline-flex; 
-  align-items: center;
-   text-decoration: none;
-   color: black;
-    font-size:20px;
-     margin-left: 30px;
+.custom-card {
+  max-width: 350px;
+  margin: 0 auto; 
 }
-.logout svg{
+
+.row {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.col-md-4 {
+  padding-left: 0x;
+  padding-right: 0;
+}
+
+.custom-card {
+  border-radius: 30px;
+  overflow: hidden;
+}
+.card-body {
+  padding: 1rem;
+}
+.btn-container {
+  padding: 0 15px; 
+}
+
+.card img {
+  height: 160px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.logout {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.logout svg {
   margin-right: 8px;
 }
