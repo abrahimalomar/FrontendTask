@@ -1,0 +1,136 @@
+/* Styling for the image container */
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Styling for the image inside the container */
+.image-container img {
+  display: block;
+}
+
+/* Adding spacing between navigation bar items */
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+
+/* Removing spacing from the last item in the navigation bar */
+.navbar-nav .nav-item:last-child {
+  margin-right: 0;
+}
+
+/* Styling the navigation bar */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Styling the navigation bar items */
+.nav-item {
+  margin: 0 15px;
+}
+
+/* Styling the links inside navigation bar items */
+.nav-item a {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 0.4s;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+/* Changing the text color on hover */
+.nav-item a:hover {
+  color: white;
+}
+
+/* Styling the animated background for the links */
+.nav-item a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  border-radius: 20px;
+  transform: scale(0);
+  transition: transform 0.4s ease;
+  z-index: -1;
+}
+
+/* Expanding the background on hover */
+.nav-item a:hover::before {
+  transform: scale(1);
+}
+
+/* Adding margin to icons inside navigation items */
+.nav-item i {
+  margin-right: 8px;
+}
+
+/* Custom size for buttons */
+.btn-custom-size {
+  width: 48%;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+}
+
+/* Container for buttons with custom padding */
+.btn-container {
+  padding: 0 25px;
+}
+
+/* Custom size for button icons */
+.btn-custom-icon {
+  font-size: 0.9rem;
+}
+
+/* Styling for icons inside custom-sized buttons */
+.btn-custom-icon i {
+  width: 0.7rem;
+  height: 1.2rem;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.2rem;
+  font-size: 0.9rem;
+}
+
+/* Styling for the add project button */
+.btn-add-project {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Adding margin to the SVG icon inside the add project button */
+.btn-add-project svg {
+  margin-right: 0.3rem;
+}
+
+/* Styling the text inside the button */
+.btn-text {
+  font-size: 15px;
+}
+
+
+
+
+.logout{
+  display: inline-flex; 
+  align-items: center;
+   text-decoration: none;
+   color: black;
+    font-size:20px;
+     margin-left: 30px;
+}
+.logout svg{
+  margin-right: 8px;
+}
