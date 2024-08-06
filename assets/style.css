@@ -122,13 +122,13 @@
 
 
 .custom-card {
-  max-width: 350px;
+  max-width: 400px;
   margin: 0 auto; 
 }
 
 .row {
-  margin-left: 45px;
-  margin-right: 45px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .col-md-4 {
